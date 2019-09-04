@@ -6,27 +6,18 @@
 @import 'libs/html-grid';
 
 /*
-	Photon by HTML5 UP
+	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Header */
+/* Tiles */
 
-	body.is-preload {
-		#header {
-			.inner {
+	.tiles {
+		body.is-preload & {
+			article {
 				@include vendor('transform', 'none');
 				opacity: 1;
-
-				.actions {
-					@include vendor('transform', 'none');
-					opacity: 1;
-				}
-			}
-
-			&:after {
-				opacity: 0;
 			}
 		}
 	}
