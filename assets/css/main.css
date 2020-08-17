@@ -2705,7 +2705,40 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
+			/*			
+			super bright blue robin egg - 4DD5FD
+			Nice blue - 4AA0E7
+			Teal - 1AB4B3
+			Yellows : FEC84E
+			lighter yellow: FFDF72
+			darker yellow - FEC84E
+			greenish: 72C2BF
+			*/
 			.tiles article.style1 > .image:before {
+				background-color: #4AA0E7;
+			}
+
+			.tiles article.style2 > .image:before {
+				background-color: #7ecaf6;
+			}
+
+			.tiles article.style3 > .image:before {
+				background-color: #59cbe5;
+			}
+
+			.tiles article.style4 > .image:before {
+				background-color: #4AA0E7;
+			}
+
+			.tiles article.style5 > .image:before {
+				/* background-color: #FFDF72; */
+				background-color: #f5dd85;
+			}
+
+			.tiles article.style6 > .image:before {
+				background-color: #72C2BF;
+			}
+			/* .tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
 
@@ -2727,7 +2760,7 @@ input, select, textarea {
 
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
-			}
+			} */
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
@@ -2738,7 +2771,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.9
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -3151,13 +3184,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+		padding: 0 ;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#main {
-				padding: 0em 0 4em 0 ;
+				padding: 0 ;
 			}
 
 		}
