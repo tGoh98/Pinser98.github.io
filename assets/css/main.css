@@ -2638,7 +2638,7 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0.25;
+					opacity: 0;
 					z-index: 2;
 				}
 
