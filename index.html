@@ -6,6 +6,16 @@
 -->
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175532626-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-175532626-1');
+		</script>
+
 		<title>Timothy Goh</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -20,7 +30,7 @@
 					<header id="header">
 						<div class="inner">
 							<!-- Profile Image -->
-							<img src="images/headshot.JPG" style="border-radius: 75%;height:300px; display: block; margin-left: auto; margin-right: auto;" alt="profile_picture">
+							<img src="images/headshot.png" style="border-radius: 75%;height:300px; display: block; margin-left: auto; margin-right: auto;" alt="profile_picture">
 						</div>
 					</header>
 
@@ -39,14 +49,28 @@
 							<div>
 								<h2 style="padding-top: 20px; margin-bottom: 0px;">About Me</h2>
 								<hr style="margin: 1em 0;">
-								Hi! My name is Timothy. I'm a sophomore at Rice University pursuing a BS in Computer Science. This past summer I interned at <a href="https://www.q2ebanking.com" target="_blank">Q2ebanking</a> as a Software Engineer intern and also attended the <a href="https://campus.capitalone.com/summits/" target="_blank">Capital One</a> Software Engineering Summit.
-								I'm passionate about optimization and using technology to help others. In my free time I enjoy competing in hackathons, solving Rubik's cubes (more on this below!), playing badminton, and trying out new restaurants.
+								I’m a junior at Rice University pursuing a major in Computer Science and a minor in Entrepreneurship.
+								I have internship experience in both frontend and backend roles, and have founded a startup to help local restaurants stay afloat in the wake of the pandemic.
+								I love to compete in hackathons during my free time, where I’ve placed in 9 out of 10 of them, including winning the grand prize 4 times.
+								I also held the world record for solving a Rubik’s cube blindfolded with my feet (more on that below!).
 							</div>
 							<div>
-								<h2 style="padding-top: 20px; margin-bottom: 0px;">Experience</h2>
+								<br />
+								<h2 style="padding-top: 7.5px; margin-bottom: 0px;">Experience</h2>
 								<hr style="margin: 1em 0;">
 							</div>
 							<section class="tiles">
+								<article class="style5">
+									<span class="image">
+										<img src="images/billLogo.png" alt="" />
+									</span>
+									<a href="https://www.bill.com" target="_blank">
+										<h2>Bill.com</h2>
+										<div class="content">
+											<p>Created a scalable solution to automate AWS deployments for Bill's highest traffic microservice, resulting in a 8x speedup.</p>
+										</div>
+									</a>
+								</article>
 								<article class="style1">
 									<span class="image">
 										<img src="images/c1.png" alt="" />
@@ -54,7 +78,7 @@
 									<a href="https://campus.capitalone.com/summits/" target="_blank">
 										<h2>Capital One</h2>
 										<div class="content">
-											<p>Selected to attend a weeklong software conference and built a chatbot-based React/Firebase social networking web app to facilitate access to microloans and won "Best Concept" prize</p>
+											<p>Selected to attend a weeklong software conference and built a chatbot-based React/Firebase social networking web app to facilitate access to microloans and won "Best Concept" prize.</p>
 										</div>
 									</a>
 								</article>
@@ -65,18 +89,7 @@
 									<a href="https://www.q2ebanking.com" target="_blank">
 										<h2>Q2eBanking</h2>
 										<div class="content">
-											<p>Implemented a Vue.js/Node.js-based dashboard to monitor the status and features of 100+ client websites and used the Apify SDK web crawler to automate the process of detecting website features and taking screenshots.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/travis.png" alt="" />
-									</span>
-									<a href="https://www.traviscountytx.gov/county-attorney" target="_blank">
-										<h2>Travis County</h2>
-										<div class="content">
-											<p>Used SQL to gather data from the County Attorney’s records to obtain protective orders for victims of domestic violence and converted old Visual FoxPro applications to C++, installed computer systems, and debugged programs.</p>
+											<p>Implemented a Vue.js/Node.js-based dashboard to monitor the status and features of 100+ client websites.</p>
 										</div>
 									</a>
 								</article>
@@ -91,21 +104,43 @@
 									<span class="image">
 										<img src="images/menu.png" alt="" />
 									</span>
-									<a href="https://github.com/tGoh98/me.nu" target="_blank">
-										<h2>Me.nu</h2>
+									<a href="https://www.eatwithmenu.com" target="_blank">
+										<h2>Menu</h2>
 										<div class="content">
-											<p>Built a web app to create personalized food recommendations based on user preferences and online ratings from Yelp/Google. Won 1st place overall at HackRice 9 and worked with Flask, Google Cloud Platform, Beautiful Soup, and Pandas in a 4-person team.</p>
+											<p>Founded a startup that provides personalized menu item recommendations for 5000+ restaurants in the Greater Houston area.</p>
 										</div>
 									</a>
 								</article>
-								<article class="style4">
+								<article class="style6">
+									<span class="image">
+										<img src="images/homeRecipes.png" alt="" />
+									</span>
+									<a href="https://devpost.com/software/homerecipes" target="_blank">
+										<h2>Home Recipes</h2>
+										<div class="content">
+											<p>Built a web app that suggests recipes after considering missing ingredients, food substitutes, and the user’s current pantry. Won 1st place overall at Rowdy Hacks 2020.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/courseEvaluations.png" alt="" />
+									</span>
+									<a href="https://devpost.com/software/course-evaluation-analytics" target="_blank">
+										<h2>Rice Course Evaluations</h2>
+										<div class="content">
+											<p>Analyze over 0.5 million Rice course reviews to improve the system for the registrar, professors, and students. Won 1st place overall at Rice Datathon 2020.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
 									<span class="image">
 										<img src="images/confidence.png" alt="" />
 									</span>
-									<a href="https://github.com/tGoh98/MousePass" target="_blank">
-										<h2>Project Confidence</h2>
+									<a href="https://devpost.com/software/mouse-pass-j5b0f9" target="_blank">
+										<h2>MousePass</h2>
 										<div class="content">
-											<p>Created a convolutional neural network to analyze users’ mouse movements and detect patterns. Won 1st place in the Charles Schwab challenge at TAMUhack. Currently collaborating with Baylor College of Medicine to test patients and identify early signs of Parkinson’s disease.</p>
+											<p>Created a neural network to analyze users’ mouse movements and detect patterns as a passwordless authentication method. Won 1st place in the Charles Schwab challenge at TAMUhack.</p>
 										</div>
 									</a>
 								</article>
@@ -116,29 +151,7 @@
 									<a href="https://github.com/tGoh98/Nest" target="_blank">
 										<h2>Nest</h2>
 										<div class="content">
-											<p>Developed an iOS app that gamifies the student experience by using geofencing to track progress towards real life achievements. Won 1st place overall at HackRice 8.5 and worked with Swift and Xcode in a 4-person team.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/dbd.png" alt="" />
-									</span>
-									<a href="https://www.youtube.com/watch?v=TQOUGgbpS60" target="_blank">
-										<h2>Decibel Display</h2>
-										<div class="content">
-											<p>Designed and prototyped a device that analyzes surrounding sound levels and alerts users to wear ear protection at unsafe volumes. Implemented laser cutting, 3D printing, light coordination, Arduino, and circuitry.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/cedar.PNG" alt="" />
-									</span>
-									<a href="https://github.com/tGoh98/cedar" target="_blank">
-										<h2>Cedar</h2>
-										<div class="content">
-											<p>Built a chatbot-based React/Firebase social networking web app that facilitates access to microloans. Won "Best Concept" prize at the Capital One Software Engineering Summit.</p>
+											<p>Developed an iOS app that gamifies the student experience by using geofencing to track progress towards real life achievements. Won 1st place overall at HackRice 8.5</p>
 										</div>
 									</a>
 								</article>
@@ -158,18 +171,19 @@
 								<br />
 								<h2 style="padding-top: 20px; margin-bottom: 0px;">Competitive Rubik's Cube Solving</h2>
 								<hr style="margin: 1em 0;">
-								<p>When I'm not programming, you can find me solving Rubik's Cubes. I currently hold the world record for <a href="https://www.youtube.com/watch?v=Mk0U_YyfMhQ" target="_blank">solving a Rubik's Cube blindfolded with feet</a>. I've placed <a href="https://www.youtube.com/watch?v=otPVLLjECCA"target="_blank">third at US Nationals</a>,
+								<p>When I'm not programming, you can find me solving Rubik's Cubes. I held the world record for <a href="https://www.youtube.com/watch?v=Mk0U_YyfMhQ" target="_blank">solving a Rubik's Cube blindfolded with feet</a>. I've placed <a href="https://www.youtube.com/watch?v=otPVLLjECCA"target="_blank">third at US Nationals</a>,
 									been ranked in the <a href="https://www.worldcubeassociation.org/results/events.php?eventId=555bf&regionId=&years=until%2B2018&show=100%2BPersons&single=Single"target="_blank">top 10 in the world</a>, started a <a href="https://www.youtube.com/channel/UCeru241De87ZCpPGLb4ZS0g" target="_blank">YouTube channel (4BLD)</a> to teach advanced techniques,
 									and wrote <a href="https://github.com/tGoh98/scramble_generator_letter_pairs" target="_blank">several computer applications</a> to help me train. You can find my official results <a href="https://www.worldcubeassociation.org/persons/2016GOHT01" target="_blank">here</a>.
-								  I also work with the <a href="https://www.worldcubeassociation.org/"target="_blank">World Cube Association</a> to organize official competitions all over the world.</p>
+								  	I also work with the <a href="https://www.worldcubeassociation.org/"target="_blank">World Cube Association</a> to organize official competitions all over the world.</p>
 									<div style="text-align: center">Here is a video of me memorizing and solving a Rubik's Cube blindfolded in 25.06 seconds.
-								<iframe width="840" height="472.5" src="https://www.youtube.com/embed/e19v3e_8O_U?start=9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+								<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 90%; margin: 0 auto;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/e19v3e_8O_U?start=9' frameborder='0' allowfullscreen></iframe></div>
 							</div>
 						</div>
 					</div>
+					
 
 				<!-- Footer -->
-					<footer id="footer" style="padding: 0;">
+					<footer id="footer" style="padding: 0; margin-top: 4rem">
 						<div class="inner">
 							<ul class="copyright" style="margin: 1em;">
 								<li>&copy; Timothy Goh. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
